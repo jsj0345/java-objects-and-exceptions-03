@@ -1,0 +1,24 @@
+package lang.practice;
+
+public class TestString6 {
+  public static void main(String[] args) {
+    String str = "start hello java, hello spring, hello jpa";
+    String key = "hello";
+
+    int count = 0;
+    int index = 0;
+
+    while(true) {
+
+
+      index = str.indexOf("hello",index+1);
+      if(index == -1){
+        break;
+      }
+      count+=1;
+
+
+    }
+    System.out.println("count = " + count);
+  }
+}

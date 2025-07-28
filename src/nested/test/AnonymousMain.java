@@ -1,0 +1,18 @@
+package nested.test;
+
+class AnonymousMain {
+
+  public static void main(String[] args) {
+    Hello hello1 = new Hello() {
+      @Override
+      public void hello() {
+        System.out.println("Hello.hello");
+      }
+    };
+
+    hello1.hello();
+
+  }
+
+
+}
