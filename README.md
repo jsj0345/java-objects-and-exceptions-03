@@ -1,0 +1,71 @@
+# Java Objects and Exceptions 03
+
+Java의 기본 클래스 활용과 예외 처리 개념을 학습하고 예제 코드로 정리한 저장소입니다.
+
+'Object', 'String', Wrapper Class, 'Class', 불변 객체, 'Math', 'System', 'enum', 날짜/시간 API, 중첩 클래스, 예외 처리 흐름을 예제 코드와 문서로 정리했습니다.
+
+## 학습 목적
+
+Java 객체지향 기본 문법 이후, 실제 개발에서 자주 사용하는 Java 기본 제공 클래스와 예외 처리 방식을 이해하기 위해 정리했습니다.
+
+단순 문법 학습을 넘어서 문자열 처리, 래퍼 클래스, 열거형, 날짜/시간 처리, 중첩 클래스 구조, 예외 발생과 처리 흐름을 직접 예제 코드로 확인하는 데 중점을 두었습니다.
+
+## 학습 내용
+
+- 'Object' 클래스와 기본 메서드
+- 'String' 클래스와 문자열 처리
+- Wrapper Class 사용
+- 'Class' 클래스 기초
+- 불변 객체 개념
+- 'Math', 'System' 클래스 활용
+- 'enum'을 활용한 상수 관리
+- Java 날짜/시간 API 사용
+- 중첩 클래스 구조
+- 예외 발생과 처리 흐름
+- 'try-catch-finally'
+- 사용자 정의 예외
+- 예외 전파와 복구 흐름
+
+## 디렉터리 구조
+
+```text
+java-objects-and-exceptions-03
+└── src
+    ├── lang
+    │   ├── Object
+    │   ├── clazz
+    │   ├── immutable
+    │   ├── math
+    │   ├── practice
+    │   ├── string
+    │   ├── system
+    │   └── wrapper
+    ├── enumeration
+    ├── time
+    ├── nested
+    ├── exception
+    │   ├── basic
+    │   ├── ex0
+    │   ├── ex1
+    │   ├── ex2
+    │   ├── ex3
+    │   └── ex4
+    ├── docs
+    │   └── exception-handling.md
+    └── Main.java
+```
+
+## 학습 포인트
+
+- Java에서 기본 제공하는 클래스들을 활용해 문자열, 숫자, 시스템 관련 기능을 처리하는 방법을 학습했습니다.
+- Wrapper Class를 통해 기본형과 참조형의 차이를 이해했습니다.
+- 'enum'을 사용해 문자열 상수보다 안전하게 정해진 값을 관리하는 방식을 익혔습니다.
+- 날짜와 시간 API를 사용해 시간 데이터를 다루는 기본 흐름을 학습했습니다.
+- 중첩 클래스를 통해 클래스 내부에 필요한 구조를 분리하는 방법을 확인했습니다.
+- 예외 처리 예제를 단계별로 작성하면서 정상 흐름과 예외 흐름을 분리하는 방법을 학습했습니다.
+
+## 실행 환경
+
+- Java
+- IntelliJ IDEA
+- 각 예제 클래스의 'main' 메서드 실행
