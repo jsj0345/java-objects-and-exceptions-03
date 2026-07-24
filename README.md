@@ -1,6 +1,6 @@
 # Java Objects and Exceptions 03
 
-Java의 기본 클래스 활용과 예외 처리 개념을 학습하고 예제 코드로 정리한 저장소입니다.
+Java의 기본 클래스 활용과 예외 처리 개념을 학습하고 예제 코드로 정리한 저장소입니다. (코드 출처 : 김영한의 실전 자바 - 중급 1편)
 
 'Object', 'String', Wrapper Class, 'Class', 불변 객체, 'Math', 'System', 'enum', 날짜/시간 API, 중첩 클래스, 예외 처리 흐름을 예제 코드와 문서로 정리했습니다.
 
@@ -25,35 +25,6 @@ Java 객체지향 기본 문법 이후, 실제 개발에서 자주 사용하는 
 - 'try-catch-finally'
 - 사용자 정의 예외
 - 예외 전파와 복구 흐름
-
-## 디렉터리 구조
-
-```text
-java-objects-and-exceptions-03
-└── src
-    ├── lang
-    │   ├── Object
-    │   ├── clazz
-    │   ├── immutable
-    │   ├── math
-    │   ├── practice
-    │   ├── string
-    │   ├── system
-    │   └── wrapper
-    ├── enumeration
-    ├── time
-    ├── nested
-    ├── exception
-    │   ├── basic
-    │   ├── ex0
-    │   ├── ex1
-    │   ├── ex2
-    │   ├── ex3
-    │   └── ex4
-    ├── docs
-    │   └── exception-handling.md
-    └── Main.java
-```
 
 ## 학습 포인트
 
